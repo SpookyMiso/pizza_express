@@ -6,7 +6,7 @@ models.sequelize
   .sync({ force: true})
   .then(function() {
     return User.create(
-     { username: 'bob', password: 'p@$$w0rd!' }
+     { username: 'bob', password: 'bob' }
     );
 
 });
